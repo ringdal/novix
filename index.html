@@ -44,7 +44,7 @@
     <script src="//code.highcharts.com/themes/dark-unica.js"></script>
     <script type="text/javascript">
 
-      fetch("/data/novix_2016_2020.json").then((response) => {
+      fetch("https://raw.githubusercontent.com/ringdal/novix/master/data/novix_2016_2020.json").then((response) => {
         response.json().then((data) => {
           data2 = [];
           for (i = 0; i < data.length; i++) {
